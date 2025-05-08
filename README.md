@@ -1,10 +1,10 @@
 # AUTOVIZ
 An automated Python pipeline that helps users upload a CSV file, explore the data, generate insightful visualizations, and receive AI-generated summaries using a Hugging Face Transformer model.
 
-📌 Features
+#📌 Features
 📁 Upload any CSV file (e.g., Titanic, Iris, Heart Disease datasets)
 
-📊 Automatic data summarization:
+#📊 Automatic data summarization:
 
 Shape, columns, types
 
@@ -12,9 +12,9 @@ Missing values and duplicates
 
 Statistical overview
 
-🧹 Data cleaning (drop duplicates, fill missing values)
+#🧹 Data cleaning (drop duplicates, fill missing values)
 
-📈 Visualizations:
+#📈 Visualizations:
 
 Histograms for numeric columns
 
@@ -44,10 +44,10 @@ Top categories in text-based columns
 
 Heatmap showing feature correlation
 
-🤖 Example AI Insight Output
+#🤖 Example AI Insight Output
 Based on the dataset, most passengers who survived the Titanic disaster were women and children. Age distribution shows a heavy concentration around 20–30 years. There's a clear correlation between passenger class and survival. Missing values were found mostly in the 'Cabin' column.
 
-📂 Supported Datasets
+#📂 Supported Datasets
 You can use any dataset with a mix of numeric and categorical features. Recommended:
 
 Titanic Dataset
@@ -62,7 +62,7 @@ Supermarket Sales
 
 Wine Quality
 
-📚 Requirements
+#📚 Requirements
 Google Colab (Recommended)
 
 Python 3
@@ -77,7 +77,7 @@ matplotlib
 
 transformers (Hugging Face)
 
-▶️ How to Run
+#▶️ How to Run
 Open in Google Colab
 
 Copy-paste the entire script.
